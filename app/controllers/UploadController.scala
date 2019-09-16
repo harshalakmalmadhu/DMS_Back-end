@@ -1,11 +1,14 @@
 package controllers
 
 import javax.inject.Inject
-import models.frm.mongo.entity.DocumentDetails
+import models.frm.mongo.entity.{DocumentDetails, UserReg}
 import org.apache.logging.log4j.LogManager
+import org.joda.time.DateTime
+import play.api.libs.json.{JsValue, Json}
 import play.api.mvc.{AbstractController, ControllerComponents}
 
-import scala.concurrent.ExecutionContext
+import scala.concurrent.{ExecutionContext, Future}
+import scala.util.parsing.json
 
 
 class UploadController  @Inject()(cc: ControllerComponents)(implicit exec: ExecutionContext) extends AbstractController(cc) {
@@ -123,5 +126,49 @@ class UploadController  @Inject()(cc: ControllerComponents)(implicit exec: Execu
 
   }
 
+  def insertBody = Action.async(parse.json) {
+    request => {
+      val body: JsValue = request.body
+      println(body)
+      val UserName = (request.body \ "UserName").as[String]
+      val Email = (request.body \ "Email").as[String]
+      val FullName = (request.body \ "FullName").as[String]
+      val Password = (request.body \ "Password").as[String]
+      val VehicleNumber = (request.body \ "VehicleNo").as[String]
+      val MobileNo = (request.body \ "MobileNo").as[String]
+      val created_date_time =  DateTime.now().toString()
+
+      val ss = (new UserReg insertDocument (Map(
+        "UserName" -> UserName,
+        "Email" -> Email,
+        "FullName" -> FullName,
+        "Password" ->  Password,
+        "VehicleNumber" ->  VehicleNumber,
+        "MobileNo" ->  MobileNo,
+        "created_date_time"  ->  created_date_time
+      )))
+
+      ss.map(
+        success => {
+
+          println(success.toString())
+
+          Ok(Json.toJson(Map("Successful"->"true")))
+        }
+      ).recover {
+        case _ => Ok(Json.toJson(Map("Successful"->"false")))
+
+      }
+
+    }
+
+
+    }
+
+  //==============================================================================================================
+
+
 
 }
+
+

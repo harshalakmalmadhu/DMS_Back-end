@@ -581,7 +581,7 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->com.typesafe.play#play-ws-standalone-json_2.11;2.0.6 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->com.typesafe.play#play-ws-standalone-json_2.11;2.0.6 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], test=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)], docs=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 in sbt-chain
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime(*)]
@@ -589,6 +589,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [compile->default]
@@ -690,17 +694,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: tyrex#tyrex;1.0.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: tyrex#tyrex;1.0.1
-[debug] 	found tyrex#tyrex;1.0.1 in sbt-chain
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: org.apache.logging.log4j#log4j-core;2.11.2 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-core;2.11.2
@@ -1539,6 +1532,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [compile->default]
@@ -1613,14 +1610,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->compile]
@@ -2347,6 +2336,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [runtime->default]
@@ -2421,14 +2414,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->compile]
@@ -3167,6 +3152,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [compile->default]
@@ -3241,14 +3230,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->compile]
@@ -3975,6 +3956,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [runtime->default]
@@ -4049,14 +4034,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->compile]
@@ -5171,6 +5148,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [test->default]
@@ -5320,14 +5301,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [test->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [test->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [test->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [test->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [test->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [test->compile]
@@ -6339,6 +6312,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [compile->default]
@@ -6413,14 +6390,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->compile]
@@ -7149,6 +7118,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile-internal->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile-internal->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile-internal->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile-internal->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile-internal->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile-internal->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile-internal->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile-internal->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [compile-internal->default]
@@ -7223,14 +7196,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile-internal->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile-internal->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile-internal->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile-internal->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile-internal->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile-internal->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile-internal->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile-internal->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile-internal->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile-internal->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile-internal->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile-internal->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile-internal->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile-internal->compile]
@@ -7961,6 +7926,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [compile->default]
@@ -8035,14 +8004,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->compile]
@@ -8769,6 +8730,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [runtime->default]
@@ -8843,14 +8808,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->compile]
@@ -9578,6 +9535,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime-internal->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime-internal->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime-internal->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime-internal->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime-internal->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime-internal->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime-internal->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime-internal->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [runtime-internal->default]
@@ -9652,14 +9613,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime-internal->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime-internal->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime-internal->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime-internal->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime-internal->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime-internal->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime-internal->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime-internal->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime-internal->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime-internal->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime-internal->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime-internal->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime-internal->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime-internal->compile]
@@ -10391,6 +10344,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [compile->default]
@@ -10465,14 +10422,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [compile->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [compile->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [compile->compile]
@@ -11199,6 +11148,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [runtime->default]
@@ -11273,14 +11226,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [runtime->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [runtime->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [runtime->compile]
@@ -12291,6 +12236,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [test->default]
@@ -12421,14 +12370,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [test->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [test->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [test->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [test->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [test->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [test->compile]
@@ -13625,6 +13566,10 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test-internal->master(compile)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test-internal->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test-internal->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test-internal->default(compile)]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test-internal->runtime]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test-internal->compile]
+[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test-internal->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test-internal->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2 [test-internal->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.scala-lang#scala-library;2.11.11 [test-internal->default]
@@ -13755,14 +13700,6 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [test-internal->compile]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [test-internal->compile(*)]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.slf4j#jul-to-slf4j;1.7.26 [test-internal->master]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test-internal->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test-internal->runtime(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test-internal->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test-internal->master(compile)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test-internal->runtime]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test-internal->compile]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test-internal->compile(*)]
-[debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->tyrex#tyrex;1.0.1 [test-internal->master]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [test-internal->default]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [test-internal->runtime]
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->org.apache.logging.log4j#log4j-core;2.11.2 [test-internal->compile]
@@ -14788,477 +14725,193 @@
 [debug] == resolving dependencies play-scala-starter-example#play-scala-starter-example$sources;1.0.0->com.google.errorprone#error_prone_annotations;2.2.0 [docs->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] javax.activation#javax.activation-api;1.2.0!javax.activation-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.11;2.7.3!play-logback_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-nop;1.7.26!slf4j-nop.jar(src)
+[debug] 	[NOT REQUIRED] javax.activation#javax.activation-api;1.2.0!javax.activation-api.jar(src)
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.8!jackson-datatype-jsr310.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-ws-standalone-xml_2.11\2.0.6\srcs\play-ws-standalone-xml_2.11-sources.jar
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-server_2.11\2.7.3\srcs\play-server_2.11-sources.jar
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-logback_2.11\2.7.3\srcs\play-logback_2.11-sources.jar
 [debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.11;3.5.3!json4s-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.11;3.5.3!json4s-ast_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.7.3/play-logback_2.11-2.7.3-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.7.3/play-server_2.11-2.7.3-sources.jar
 [debug] 	[NOT REQUIRED] org.json4s#json4s-jackson_2.11;3.5.3!json4s-jackson_2.11.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.11/2.0.6/play-ws-standalone-xml_2.11-2.0.6-sources.jar
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play_2.11\2.7.3\srcs\play_2.11-sources.jar
 [debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.26!jcl-over-slf4j.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.7.3/play_2.11-2.7.3-sources.jar
 [debug] 	[NOT REQUIRED] com.typesafe.slick#slick-hikaricp_2.11;3.3.1!slick-hikaricp_2.11.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-ws_2.11\2.7.3\srcs\play-ws_2.11-sources.jar
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-streams_2.11\2.7.3\srcs\play-streams_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.7.3/play-ws_2.11-2.7.3-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.7.3/play-streams_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.7.3/play-streams_2.11-2.7.3-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.7.3/play-server_2.11-2.7.3-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.7.3/play-ws_2.11-2.7.3-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.7.3/play-logback_2.11-2.7.3-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.11/2.0.6/play-ws-standalone-xml_2.11-2.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.7.3/play-server_2.11-2.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.7.3/play-ws_2.11-2.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.7.3/play-logback_2.11-2.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.7.3/play-streams_2.11-2.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.11/2.0.6/play-ws-standalone-xml_2.11-2.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.7.3/play_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.7.3/play_2.11-2.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.7.3/play-logback_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.7.3/play-ws_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.11/2.0.6/play-ws-standalone-xml_2.11-2.0.6-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.7.3/play-streams_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.7.3/play-server_2.11-2.7.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.7.3/play-ws_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws_2.11;2.7.3!play-ws_2.11.jar(src) (3926ms)
-[debug] 	[NOT REQUIRED] org.mongodb.scala#mongo-scala-bson_2.11;2.6.0!mongo-scala-bson_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-streams_2.11;2.7.3!play-streams_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ws_2.11;2.7.3!play-ws_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.11;2.7.3!play_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.7.3!build-link.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb.scala#mongo-scala-bson_2.11;2.6.0!mongo-scala-bson_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ws-standalone-xml_2.11;2.0.6!play-ws-standalone-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-akka-http-server_2.11;2.7.3!play-akka-http-server_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.11;10.1.8!akka-parsing_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-akka-http-server_2.11\2.7.3\srcs\play-akka-http-server_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.11/2.7.3/play-akka-http-server_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.11/2.7.3/play-logback_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-logback_2.11;2.7.3!play-logback_2.11.jar(src) (3941ms)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.akka\akka-parsing_2.11\10.1.8\srcs\akka-parsing_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.1.8/akka-parsing_2.11-10.1.8-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.11/2.0.6/play-ws-standalone-xml_2.11-2.0.6-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws-standalone-xml_2.11;2.0.6!play-ws-standalone-xml_2.11.jar(src) (4000ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-server_2.11;2.7.3!play-server_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\twirl-api_2.11\1.4.2\srcs\twirl-api_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.4.2/twirl-api_2.11-1.4.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.11/2.7.3/play-streams_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-streams_2.11;2.7.3!play-streams_2.11.jar(src) (4220ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.11;1.4.2!twirl-api_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ahc-ws-standalone_2.11;2.0.6!play-ahc-ws-standalone_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.11!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.11.2!log4j-api.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-ahc-ws-standalone_2.11\2.0.6\srcs\play-ahc-ws-standalone_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.11/2.0.6/play-ahc-ws-standalone_2.11-2.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.11/2.7.3/play-akka-http-server_2.11-2.7.3-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.1.8/akka-parsing_2.11-10.1.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.1.8/akka-parsing_2.11-10.1.8-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.11/2.7.3/play-akka-http-server_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.4.2/twirl-api_2.11-1.4.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.4.2/twirl-api_2.11-1.4.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.7.3/play-server_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-server_2.11;2.7.3!play-server_2.11.jar(src) (4528ms)
 [debug] 	[NOT REQUIRED] com.typesafe.play#shaded-oauth;2.0.6!shaded-oauth.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-guice_2.11\2.7.3\srcs\play-guice_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.11/2.7.3/play-guice_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.11/2.0.6/play-ahc-ws-standalone_2.11-2.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.11/2.0.6/play-ahc-ws-standalone_2.11-2.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.11/2.7.3/play-guice_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.11/2.7.3/play-guice_2.11-2.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.4.2/twirl-api_2.11-1.4.2-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.11/2.7.3/play-akka-http-server_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.1.8/akka-parsing_2.11-10.1.8-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.7.3/play_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.11/2.7.3/play-guice_2.11-2.7.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.4.2/twirl-api_2.11-1.4.2-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.11;1.4.2!twirl-api_2.11.jar(src) (1557ms)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-jdbc-api_2.11\2.7.3\srcs\play-jdbc-api_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.7.3/play-jdbc-api_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.11/2.7.3/play-akka-http-server_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.1.8/akka-parsing_2.11-10.1.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-akka-http-server_2.11;2.7.3!play-akka-http-server_2.11.jar(src) (1826ms)
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing_2.11;10.1.8!akka-parsing_2.11.jar(src) (1817ms)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-ws-standalone_2.11\2.0.6\srcs\play-ws-standalone_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-api_2.11;2.7.3!play-jdbc-api_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.11.2!log4j-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ws-standalone_2.11;2.0.6!play-ws-standalone_2.11.jar(src)
 [debug] 	[NOT REQUIRED] mysql#mysql-connector-java;6.0.6!mysql-connector-java.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.11/2.0.6/play-ws-standalone_2.11-2.0.6-sources.jar
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.slick#slick_2.11;3.3.1!slick_2.11.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#shaded-asynchttpclient;2.0.6!shaded-asynchttpclient.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-collection-compat_2.11;2.0.0!scala-collection-compat_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.mongodb#bson;3.10.0!bson.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.17!animal-sniffer-annotations.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-jdbc_2.11\2.7.3\srcs\play-jdbc_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.7.3/play-jdbc_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.7.3/play_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play_2.11;2.7.3!play_2.11.jar(src) (5823ms)
-[debug] 	[NOT REQUIRED] org.mongodb#mongodb-driver-core;3.10.0!mongodb-driver-core.jar(src)
 [debug] 	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.9.1!jjwt.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.akka\akka-protobuf_2.11\2.5.23\srcs\akka-protobuf_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.5.23/akka-protobuf_2.11-2.5.23-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.7.3/play-jdbc-api_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.7.3/play-jdbc-api_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.11/2.7.3/play-guice_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-guice_2.11;2.7.3!play-guice_2.11.jar(src) (1522ms)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\cachecontrol_2.11\1.1.7\srcs\cachecontrol_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.11/1.1.7/cachecontrol_2.11-1.1.7-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.7.3/play-jdbc_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.7.3/play-jdbc_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.11/2.0.6/play-ws-standalone_2.11-2.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.11/2.0.6/play-ws-standalone_2.11-2.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.5.23/akka-protobuf_2.11-2.5.23-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.5.23/akka-protobuf_2.11-2.5.23-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.11/1.1.7/cachecontrol_2.11-1.1.7-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.11/1.1.7/cachecontrol_2.11-1.1.7-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.11/2.0.6/play-ahc-ws-standalone_2.11-2.0.6-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.7.3/play-jdbc-api_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.7.3/play-jdbc_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.11/2.0.6/play-ws-standalone_2.11-2.0.6-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.11/1.1.7/cachecontrol_2.11-1.1.7-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.11/2.0.6/play-ahc-ws-standalone_2.11-2.0.6-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ahc-ws-standalone_2.11;2.0.6!play-ahc-ws-standalone_2.11.jar(src) (3017ms)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-ws-standalone-json_2.11\2.0.6\srcs\play-ws-standalone-json_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.11/2.0.6/play-ws-standalone-json_2.11-2.0.6-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.11/2.7.3/play-jdbc-api_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc-api_2.11;2.7.3!play-jdbc-api_2.11.jar(src) (1728ms)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.11\1.1.2\srcs\scala-parser-combinators_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.2/scala-parser-combinators_2.11-1.1.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.11/2.7.3/play-jdbc_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-jdbc_2.11;2.7.3!play-jdbc_2.11.jar(src) (1604ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.7.3!play-jdbc_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb#mongodb-driver-core;3.10.0!mongodb-driver-core.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.11;2.5.23!akka-protobuf_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#cachecontrol_2.11;1.1.7!cachecontrol_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ws-standalone-json_2.11;2.0.6!play-ws-standalone-json_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.11!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-guice_2.11;2.7.3!play-guice_2.11.jar(src)
 [debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.3.1!jaxb-api.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe\ssl-config-core_2.11\0.3.8\srcs\ssl-config-core_2.11-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.11/2.0.6/play-ws-standalone_2.11-2.0.6-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.3.8/ssl-config-core_2.11-0.3.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws-standalone_2.11;2.0.6!play-ws-standalone_2.11.jar(src) (1620ms)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.11;0.3.8!ssl-config-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] javax.cache#cache-api;1.0.0!cache-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.11;2.5.23!akka-slf4j_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.5.23!akka-actor_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.ehcache#jcache;1.0.1!jcache.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.akka\akka-slf4j_2.11\2.5.23\srcs\akka-slf4j_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.5.23/akka-slf4j_2.11-2.5.23-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.11/2.0.6/play-ws-standalone-json_2.11-2.0.6-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.11/2.0.6/play-ws-standalone-json_2.11-2.0.6-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.2/scala-parser-combinators_2.11-1.1.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.2/scala-parser-combinators_2.11-1.1.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.11/1.1.7/cachecontrol_2.11-1.1.7-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#cachecontrol_2.11;1.1.7!cachecontrol_2.11.jar(src) (1600ms)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.akka\akka-actor_2.11\2.5.23\srcs\akka-actor_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.23/akka-actor_2.11-2.5.23-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.3.8/ssl-config-core_2.11-0.3.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.3.8/ssl-config-core_2.11-0.3.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.5.23/akka-slf4j_2.11-2.5.23-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.5.23/akka-slf4j_2.11-2.5.23-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.23/akka-actor_2.11-2.5.23-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.23/akka-actor_2.11-2.5.23-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.11/2.0.6/play-ws-standalone-json_2.11-2.0.6-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.3.8/ssl-config-core_2.11-0.3.8-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.5.23/akka-slf4j_2.11-2.5.23-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.2/scala-parser-combinators_2.11-1.1.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.11/2.0.6/play-ws-standalone-json_2.11-2.0.6-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ws-standalone-json_2.11;2.0.6!play-ws-standalone-json_2.11.jar(src) (1544ms)
 [debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.26!jul-to-slf4j.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\tyrex\tyrex\1.0.1\srcs\tyrex-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.5.23/akka-slf4j_2.11-2.5.23-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.3.8/ssl-config-core_2.11-0.3.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.11;2.5.23!akka-slf4j_2.11.jar(src) (1654ms)
 [debug] 	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.11.2!log4j-core.jar(src)
-[info] 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.11;0.3.8!ssl-config-core_2.11.jar(src) (1661ms)
-[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.9.2!joda-convert.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.10.1!joda-time.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
 [debug] 	[NOT REQUIRED] org.checkerframework#checker-qual;2.5.2!checker-qual.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-cache_2.11\2.7.3\srcs\play-cache_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.7.3!play-cache_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject#guice;4.2.2!guice.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.7.3/play-cache_2.11-2.7.3-sources.jar
 [debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-json_2.11\2.7.4\srcs\play-json_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.7.4/play-json_2.11-2.7.4-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
-[debug] 		tried C:\Users\Harsha\.sbt\preloaded\tyrex\tyrex\1.0.1\srcs\tyrex-sources.jar
-[debug] 		tried file:/C:/Users/Harsha/.sbt/preloaded/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
-[debug] 		tried https://dl.bintray.com/scalaz/releases/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.1.2/scala-parser-combinators_2.11-1.1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.1.2!scala-parser-combinators_2.11.jar(src) (1874ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.11;2.7.4!play-json_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.mongodb#mongodb-driver-async;3.10.0!mongodb-driver-async.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.akka\akka-stream_2.11\2.5.23\srcs\akka-stream_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.23/akka-stream_2.11-2.5.23-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.7.3/play-cache_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.7.3/play-cache_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.7.4/play-json_2.11-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.7.4/play-json_2.11-2.7.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.23/akka-stream_2.11-2.5.23-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.23/akka-stream_2.11-2.5.23-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.5.23/akka-protobuf_2.11-2.5.23-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.7.4/play-json_2.11-2.7.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.7.3/play-cache_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.23/akka-actor_2.11-2.5.23-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.5.23/akka-protobuf_2.11-2.5.23-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-protobuf_2.11;2.5.23!akka-protobuf_2.11.jar(src) (4459ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.5.23!akka-stream_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.9.8!jackson-datatype-jdk8.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#failureaccess;1.0.1!failureaccess.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.11;3.5.3!json4s-scalap_2.11.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-ahc-ws_2.11\2.7.3\srcs\play-ahc-ws_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.11/2.7.3/play-ahc-ws_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.7.4/play-json_2.11-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.11;2.7.4!play-json_2.11.jar(src) (1534ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ahc-ws_2.11;2.7.3!play-ahc-ws_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;3.3.1!HikariCP.jar(src)
-[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.2.0\srcs\scala-xml_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.2.0/scala-xml_2.11-1.2.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.11/2.7.3/play-ahc-ws_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.11/2.7.3/play-ahc-ws_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.7.3/play-cache_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-cache_2.11;2.7.3!play-cache_2.11.jar(src) (1563ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.2.0!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;27.1-jre!guava.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-ehcache_2.11\2.7.3\srcs\play-ehcache_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.11/2.7.3/play-ehcache_2.11-2.7.3-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://dl.bintray.com/scalaz/releases/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
-[debug] 		tried http://repo.akka.io/snapshots/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.23/akka-actor_2.11-2.5.23-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.5.23!akka-actor_2.11.jar(src) (3159ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ehcache_2.11;2.7.3!play-ehcache_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.jar(src)
 [debug] 	[NOT REQUIRED] net.sf.ehcache#ehcache;2.10.6!ehcache.jar(src)
+[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.2.2!guice-assistedinject.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\org.scala-lang.modules\scala-java8-compat_2.11\0.9.0\srcs\scala-java8-compat_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.9.0/scala-java8-compat_2.11-0.9.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.2.0/scala-xml_2.11-1.2.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.2.0/scala-xml_2.11-1.2.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.11/2.7.3/play-ehcache_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.11/2.7.3/play-ehcache_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.9.0/scala-java8-compat_2.11-0.9.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.9.0/scala-java8-compat_2.11-0.9.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.11/2.7.3/play-ahc-ws_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.11/2.7.3/play-ehcache_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.9.0/scala-java8-compat_2.11-0.9.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.11/2.7.3/play-ahc-ws_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ahc-ws_2.11;2.7.3!play-ahc-ws_2.11.jar(src) (1593ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.2.0/scala-xml_2.11-1.2.0-sources.jar.sha1
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-functional_2.11\2.7.4\srcs\play-functional_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.7.4/play-functional_2.11-2.7.4-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.akka.io/snapshots/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
-[warn] 	Detected merged artifact: [FAILED     ] tyrex#tyrex;1.0.1!tyrex.jar(src):  (0ms).
-[warn] ==== local: tried
-[warn] ==== public: tried
-[warn] ==== local-preloaded-ivy: tried
-[warn]   C:\Users\Harsha\.sbt\preloaded\tyrex\tyrex\1.0.1\srcs\tyrex-sources.jar
-[warn] ==== local-preloaded: tried
-[warn]   file:/C:/Users/Harsha/.sbt/preloaded/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
-[warn] ==== scalaz-bintray: tried
-[warn]   https://dl.bintray.com/scalaz/releases/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
-[warn] ==== Akka Snapshot Repository: tried
-[warn]   http://repo.akka.io/snapshots/tyrex/tyrex/1.0.1/tyrex-1.0.1-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.9.0!scala-java8-compat_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.11;2.7.4!play-functional_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.8!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.7.3!play-exceptions.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.akka\akka-http-core_2.11\10.1.8\srcs\akka-http-core_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.1.8/akka-http-core_2.11-10.1.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.7.4/play-functional_2.11-2.7.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.7.4/play-functional_2.11-2.7.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-ehcache_2.11/2.7.3/play-ehcache_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-ehcache_2.11;2.7.3!play-ehcache_2.11.jar(src) (1752ms)
-[debug] 	[NOT REQUIRED] org.mongodb.scala#mongo-scala-driver_2.11;2.6.0!mongo-scala-driver_2.11.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\filters-helpers_2.11\2.7.3\srcs\filters-helpers_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.7.3/filters-helpers_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.9.0/scala-java8-compat_2.11-0.9.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.11;0.9.0!scala-java8-compat_2.11.jar(src) (1582ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.7.3!play-exceptions.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.11;10.1.8!akka-http-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.2.0!error_prone_annotations.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.141.59!selenium-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.11;2.7.3!filters-helpers_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.8!commons-lang3.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\org.specs2\specs2-mock_2.11\4.5.1\srcs\specs2-mock_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-mock_2.11/4.5.1/specs2-mock_2.11-4.5.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.1.8/akka-http-core_2.11-10.1.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.1.8/akka-http-core_2.11-10.1.8-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.2.0/scala-xml_2.11-1.2.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.2.0!scala-xml_2.11.jar(src) (1993ms)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-specs2_2.11\2.7.3\srcs\play-specs2_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-specs2_2.11/2.7.3/play-specs2_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.7.3/filters-helpers_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.7.3/filters-helpers_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-mock_2.11/4.5.1/specs2-mock_2.11-4.5.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-mock_2.11/4.5.1/specs2-mock_2.11-4.5.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.7.4/play-functional_2.11-2.7.4-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-specs2_2.11/2.7.3/play-specs2_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-specs2_2.11/2.7.3/play-specs2_2.11-2.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.7.3/filters-helpers_2.11-2.7.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.7.4/play-functional_2.11-2.7.4-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.11;2.7.4!play-functional_2.11.jar(src) (1722ms)
+[debug] 	[NOT REQUIRED] org.mongodb.scala#mongo-scala-driver_2.11;2.6.0!mongo-scala-driver_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-exec;1.3!commons-exec.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.141.59!selenium-api.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;3.141.59!selenium-remote-driver.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\org.specs2\specs2-common_2.11\4.5.1\srcs\specs2-common_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.5.1/specs2-common_2.11-4.5.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-mock_2.11/4.5.1/specs2-mock_2.11-4.5.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-specs2_2.11/2.7.3/play-specs2_2.11-2.7.3-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.5.1/specs2-common_2.11-4.5.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.5.1/specs2-common_2.11-4.5.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.11/2.7.3/filters-helpers_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#filters-helpers_2.11;2.7.3!filters-helpers_2.11.jar(src) (1767ms)
-[debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams;2.0.3!netty-reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.11;4.5.1!specs2-common_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.9.2!joda-convert.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.12.v20180830!jetty-io.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.141.59!selenium-support.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-transport-native-unix-common;4.1.34.Final!netty-transport-native-unix-common.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-netty-server_2.11\2.7.3\srcs\play-netty-server_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.7.3/play-netty-server_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-mock_2.11/4.5.1/specs2-mock_2.11-4.5.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-mock_2.11;4.5.1!specs2-mock_2.11.jar(src) (1937ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-specs2_2.11;2.7.3!play-specs2_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams-http;2.0.3!netty-reactive-streams-http.jar(src)
 [debug] 	[NOT REQUIRED] org.mockito#mockito-core;2.23.4!mockito-core.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.6!httpmime.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-mock_2.11;4.5.1!specs2-mock_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-server_2.11;2.7.3!play-netty-server_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;3.141.59!selenium-firefox-driver.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.33!htmlunit-core-js.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.12.v20180830!jetty-xml.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.12.v20180830!jetty-util.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-text;1.4!commons-text.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.12.v20180830!jetty-http.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.10!httpcore.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.12.v20180830!jetty-util.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-fp_2.11;4.5.1!specs2-fp_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-codec-http;4.1.34.Final!netty-codec-http.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\org.specs2\specs2-fp_2.11\4.5.1\srcs\specs2-fp_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.5.1/specs2-fp_2.11-4.5.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-specs2_2.11/2.7.3/play-specs2_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-specs2_2.11;2.7.3!play-specs2_2.11.jar(src) (1871ms)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.11;4.5.1!specs2-matcher_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.12.v20180830!jetty-client.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\org.specs2\specs2-matcher_2.11\4.5.1\srcs\specs2-matcher_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.5.1/specs2-matcher_2.11-4.5.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.7.3/play-netty-server_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.7.3/play-netty-server_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.5.1/specs2-fp_2.11-4.5.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.5.1/specs2-fp_2.11-4.5.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.5.1/specs2-common_2.11-4.5.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.1.8/akka-http-core_2.11-10.1.8-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.5.1/specs2-matcher_2.11-4.5.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.5.1/specs2-matcher_2.11-4.5.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.7.3/play-netty-server_2.11-2.7.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.5.1/specs2-fp_2.11-4.5.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-common_2.11/4.5.1/specs2-common_2.11-4.5.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-common_2.11;4.5.1!specs2-common_2.11.jar(src) (1785ms)
 [debug] 	[NOT REQUIRED] io.netty#netty-buffer;4.1.34.Final!netty-buffer.jar(src)
 [debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.14.0!okio.jar(src)
 [debug] 	[NOT REQUIRED] commons-net#commons-net;3.6!commons-net.jar(src)
-[debug] 	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;3.7.1!fluentlenium-core.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-api;9.4.12.v20180830!websocket-api.jar(src)
+[debug] 	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;3.7.1!fluentlenium-core.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.6!httpclient.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-transport-native-epoll;4.1.34.Final!netty-transport-native-epoll.jar(src)
 [debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy-agent;1.9.3!byte-buddy-agent.jar(src)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-common;4.1.34.Final!netty-common.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-test_2.11\2.7.3\srcs\play-test_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.7.3/play-test_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.1.8/akka-http-core_2.11-10.1.8-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core_2.11;10.1.8!akka-http-core_2.11.jar(src) (3229ms)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.7.3!play-test_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.11;4.5.1!specs2-core_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-transport;4.1.34.Final!netty-transport.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\org.specs2\specs2-core_2.11\4.5.1\srcs\specs2-core_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.5.1/specs2-core_2.11-4.5.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.5.1/specs2-matcher_2.11-4.5.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.7.3/play-netty-server_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-netty-server_2.11;2.7.3!play-netty-server_2.11.jar(src) (1553ms)
-[debug] 	[NOT REQUIRED] org.atteo.classindex#classindex;3.4!classindex.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-cssparser;1.2.0!htmlunit-cssparser.jar(src)
+[debug] 	[NOT REQUIRED] org.atteo.classindex#classindex;3.4!classindex.jar(src)
 [debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
 [debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.9.3!byte-buddy.jar(src)
 [debug] 	[NOT REQUIRED] xerces#xercesImpl;2.12.0!xercesImpl.jar(src)
 [debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.33!htmlunit.jar(src)
-[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.11.0!okhttp.jar(src)
 [debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.6!objenesis.jar(src)
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.11.0!okhttp.jar(src)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.6!commons-io.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-codec;4.1.34.Final!netty-codec.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-common;9.4.12.v20180830!websocket-common.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#htmlunit-driver;2.33.3!htmlunit-driver.jar(src)
-[debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
 [debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\org.specs2\specs2-junit_2.11\4.5.1\srcs\specs2-junit_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/specs2/specs2-junit_2.11/4.5.1/specs2-junit_2.11-4.5.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.7.3/play-test_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.7.3/play-test_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.5.1/specs2-core_2.11-4.5.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.5.1/specs2-core_2.11-4.5.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-fp_2.11/4.5.1/specs2-fp_2.11-4.5.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-fp_2.11;4.5.1!specs2-fp_2.11.jar(src) (1636ms)
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-junit_2.11;4.5.1!specs2-junit_2.11.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-resolver;4.1.34.Final!netty-resolver.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.33!neko-htmlunit.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-handler;4.1.34.Final!netty-handler.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.12.v20180830!websocket-client.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.11!scala-compiler.jar(src)
-[info] downloading https://repo1.maven.org/maven2/org/specs2/specs2-junit_2.11/4.5.1/specs2-junit_2.11-4.5.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-junit_2.11/4.5.1/specs2-junit_2.11-4.5.1-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.10!httpcore.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams;2.0.3!netty-reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-docs_2.11\2.7.3\srcs\play-docs_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.7.3/play-docs_2.11-2.7.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-matcher_2.11/4.5.1/specs2-matcher_2.11-4.5.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-matcher_2.11;4.5.1!specs2-matcher_2.11.jar(src) (1669ms)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar(src)
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.6.0!pegdown.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-omnidoc_2.11\2.7.3\srcs\play-omnidoc_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.7.3/play-omnidoc_2.11-2.7.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.7.3/play-docs_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.7.3/play-docs_2.11-2.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.7.3/play-test_2.11-2.7.3-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.7.3/play-omnidoc_2.11-2.7.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.7.3/play-omnidoc_2.11-2.7.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.5.1/specs2-core_2.11-4.5.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/specs2/specs2-junit_2.11/4.5.1/specs2-junit_2.11-4.5.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.23/akka-stream_2.11-2.5.23-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.7.3/play-docs_2.11-2.7.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-test_2.11/2.7.3/play-test_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-test_2.11;2.7.3!play-test_2.11.jar(src) (1587ms)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src)
-[debug] 		tried C:\Users\Harsha\.ivy2\local\com.typesafe.play\play-doc_2.11\2.0.2\srcs\play-doc_2.11-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.11/2.0.2/play-doc_2.11-2.0.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.7.3/play-omnidoc_2.11-2.7.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-core_2.11/4.5.1/specs2-core_2.11-4.5.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-core_2.11;4.5.1!specs2-core_2.11.jar(src) (1661ms)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/specs2/specs2-junit_2.11/4.5.1/specs2-junit_2.11-4.5.1-sources.jar
-[info] 	[SUCCESSFUL ] org.specs2#specs2-junit_2.11;4.5.1!specs2-junit_2.11.jar(src) (1544ms)
-[info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.11/2.0.2/play-doc_2.11-2.0.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.11/2.0.2/play-doc_2.11-2.0.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.23/akka-stream_2.11-2.5.23-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream_2.11;2.5.23!akka-stream_2.11.jar(src) (8359ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-docs_2.11/2.7.3/play-docs_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-docs_2.11;2.7.3!play-docs_2.11.jar(src) (1587ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-omnidoc_2.11/2.7.3/play-omnidoc_2.11-2.7.3-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-omnidoc_2.11;2.7.3!play-omnidoc_2.11.jar(src) (1596ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.11/2.0.2/play-doc_2.11-2.0.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-doc_2.11/2.0.2/play-doc_2.11-2.0.2-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-doc_2.11;2.0.2!play-doc_2.11.jar(src) (1684ms)
-[debug] :: resolution report :: resolve 2864ms :: artifacts dl 18698ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: tyrex#tyrex;1.0.1!tyrex.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 compile produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-compile.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 runtime produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-runtime.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 test produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-test.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 provided produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-provided.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 optional produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-optional.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 web-assets produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-web-assets.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 web-assets-test produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-web-assets-test.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 web-plugin produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-web-plugin.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 universal produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-universal.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 universal-docs produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-universal-docs.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 universal-src produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-universal-src.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 windows produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-windows.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 docker produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-docker.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 linux produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-linux.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 rpm produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-rpm.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 debian produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-debian.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 compile-internal produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-compile-internal.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 runtime-internal produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-runtime-internal.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 test-internal produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-test-internal.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 plugin produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-plugin.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 pom produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-pom.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 scala-tool produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-scala-tool.xml
-[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 docs produced in C:\Users\Harsha\Music\SWPM\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-docs.xml
-[debug] 	resolve done (2864ms resolve - 18698ms download)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.11!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.11;2.0.2!play-doc_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.11;2.7.3!play-docs_2.11.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-omnidoc_2.11;2.7.3!play-omnidoc_2.11.jar(src)
+[debug] :: resolution report :: resolve 2772ms :: artifacts dl 98ms
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 compile produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-compile.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 runtime produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-runtime.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 test produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-test.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 provided produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-provided.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 optional produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-optional.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 web-assets produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-web-assets.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 web-assets-test produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-web-assets-test.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 web-plugin produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-web-plugin.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 universal produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-universal.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 universal-docs produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-universal-docs.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 universal-src produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-universal-src.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 windows produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-windows.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 docker produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-docker.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 linux produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-linux.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 rpm produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-rpm.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 debian produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-debian.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 compile-internal produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-compile-internal.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 runtime-internal produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-runtime-internal.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 test-internal produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-test-internal.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 plugin produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-plugin.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 pom produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-pom.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 scala-tool produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-scala-tool.xml
+[debug] 	report for play-scala-starter-example#play-scala-starter-example$sources;1.0.0 docs produced in C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\resolution-cache\reports\play-scala-starter-example-play-scala-starter-example$sources-docs.xml
+[debug] 	resolve done (2772ms resolve - 98ms download)

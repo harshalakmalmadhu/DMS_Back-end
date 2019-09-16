@@ -26,7 +26,8 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
       {
 
 
-Seq[Any](format.raw/*6.1*/("""
+Seq[Any](format.raw/*5.56*/("""
+
 """),format.raw/*11.4*/("""
 """),_display_(/*12.2*/main("Welcome to Play", assetsFinder)/*12.39*/ {_display_(Seq[Any](format.raw/*12.41*/("""
 
@@ -50,11 +51,11 @@ Seq[Any](format.raw/*6.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2019-09-10T14:54:00.182
-                  SOURCE: C:/Users/Harsha/Music/SWPM/app/views/index.scala.html
-                  HASH: dc19f2f40c7aef4d90453c076454830426864d3c
-                  MATRIX: 873->137|1021->192|1049->387|1077->389|1123->426|1163->428|1196->557|1228->563|1282->596|1315->599
-                  LINES: 24->5|29->6|30->11|31->12|31->12|31->12|33->17|34->18|34->18|36->20
+                  DATE: 2019-09-13T21:35:41.964
+                  SOURCE: C:/Users/Harsha/Music/SWPM/DMS_Back-end/app/views/index.scala.html
+                  HASH: 1d6367854c39674729894b35c4ea063b74382fea
+                  MATRIX: 876->141|1025->195|1056->397|1085->400|1131->437|1171->439|1206->573|1239->580|1293->613|1328->618
+                  LINES: 24->5|29->5|31->11|32->12|32->12|32->12|34->17|35->18|35->18|37->20
                   -- GENERATED --
               */
           

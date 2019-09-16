@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Harsha/Music/SWPM/conf/routes
-// @DATE:Fri Sep 13 21:14:25 IST 2019
+// @SOURCE:C:/Users/Harsha/Music/SWPM/DMS_Back-end/conf/routes
+// @DATE:Sun Sep 15 00:00:32 IST 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -48,16 +48,6 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:19
-    def getAllDocs: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.UploadController.getAllDocs",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "getAllDocs"})
-        }
-      """
-    )
-  
     // @LINE:21
     def insertDocParam: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.UploadController.insertDocParam",
@@ -68,12 +58,32 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:19
+    def getAllDocs: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.UploadController.getAllDocs",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "getAllDocs"})
+        }
+      """
+    )
+  
     // @LINE:17
     def getFirstDoc: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.UploadController.getFirstDoc",
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "getFirstDoc"})
+        }
+      """
+    )
+  
+    // @LINE:23
+    def insertBody: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.UploadController.insertBody",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "insertBody"})
         }
       """
     )

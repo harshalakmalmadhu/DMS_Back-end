@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Harsha/Music/SWPM/conf/routes
-// @DATE:Fri Sep 13 21:14:25 IST 2019
+// @SOURCE:C:/Users/Harsha/Music/SWPM/DMS_Back-end/conf/routes
+// @DATE:Sun Sep 15 00:00:32 IST 2019
 
 import play.api.mvc.Call
 
@@ -38,22 +38,28 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "insertDoc")
     }
   
-    // @LINE:19
-    def getAllDocs(): Call = {
-      
-      Call("GET", _prefix + { _defaultPrefix } + "getAllDocs")
-    }
-  
     // @LINE:21
     def insertDocParam(id:Int, document_id:String, patient_id:String, tenant:String): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "insertDocPar" + play.core.routing.queryString(List(Some(implicitly[play.api.mvc.QueryStringBindable[Int]].unbind("id", id)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("document_id", document_id)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("patient_id", patient_id)), Some(implicitly[play.api.mvc.QueryStringBindable[String]].unbind("tenant", tenant)))))
     }
   
+    // @LINE:19
+    def getAllDocs(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "getAllDocs")
+    }
+  
     // @LINE:17
     def getFirstDoc(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "getFirstDoc")
+    }
+  
+    // @LINE:23
+    def insertBody(): Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "insertBody")
     }
   
   }

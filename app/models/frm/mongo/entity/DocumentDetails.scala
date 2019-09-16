@@ -1,7 +1,9 @@
 package models.frm.mongo.entity
 
 import factories.LocalMongo
+import org.bson.BsonDocument
 import org.mongodb.scala.{Completed, Document}
+import play.api.libs.json.JsValue
 import services.Json
 import util.Conf
 
@@ -35,6 +37,29 @@ class DocumentDetails extends Json {
     db.find().collect().toFuture()
 
   }
+  /*def insertDocumentbody(data:JsValue): Future[Either[Int,String]] = {
+
+    val id =data("_id").as[Int]
+    val document_id =data("").as[Int]
+    val patient_id =data("").as[Int]
+    val tenant =data("").as[String]
+
+
+
+
+    val result = (
+      "_id" -> id,
+      "document_id" -> document_id,
+      "patient_id" -> patient_id,
+      "tenant" -> tenant
+    )
+
+    val replacementDoc: Document = Document(toJson(result))
+
+    db.insertOne(replacementDoc)
+
+  }*/
+
 
 
 

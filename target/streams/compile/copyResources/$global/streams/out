@@ -1,4 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Harsha\Music\SWPM\conf\application.conf,C:\Users\Harsha\Music\SWPM\target\scala-2.11\classes\application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Harsha\Music\SWPM\conf\logback.xml,C:\Users\Harsha\Music\SWPM\target\scala-2.11\classes\logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Harsha\Music\SWPM\conf\routes,C:\Users\Harsha\Music\SWPM\target\scala-2.11\classes\routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Harsha\Music\SWPM\DMS_Back-end\conf\application.conf,C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Harsha\Music\SWPM\DMS_Back-end\conf\logback.xml,C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\classes\logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\Harsha\Music\SWPM\DMS_Back-end\conf\routes,C:\Users\Harsha\Music\SWPM\DMS_Back-end\target\scala-2.11\classes\routes)[0m

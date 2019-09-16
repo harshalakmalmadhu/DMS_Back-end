@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Harsha/Music/SWPM/conf/routes
-// @DATE:Fri Sep 13 21:14:25 IST 2019
+// @SOURCE:C:/Users/Harsha/Music/SWPM/DMS_Back-end/conf/routes
+// @DATE:Sun Sep 15 00:00:32 IST 2019
 
 package router
 
@@ -59,6 +59,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """getFirstDoc""", """controllers.UploadController.getFirstDoc"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """getAllDocs""", """controllers.UploadController.getAllDocs"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """insertDocPar""", """controllers.UploadController.insertDocParam(id:Int, document_id:String, patient_id:String, tenant:String)"""),
+    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """insertBody""", """controllers.UploadController.insertBody()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -210,6 +211,24 @@ class Routes(
     )
   )
 
+  // @LINE:23
+  private[this] lazy val controllers_UploadController_insertBody8_route = Route("POST",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("insertBody")))
+  )
+  private[this] lazy val controllers_UploadController_insertBody8_invoker = createInvoker(
+    UploadController_0.insertBody(),
+    play.api.routing.HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.UploadController",
+      "insertBody",
+      Nil,
+      "POST",
+      this.prefix + """insertBody""",
+      """""",
+      Seq()
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -259,6 +278,12 @@ class Routes(
     case controllers_UploadController_insertDocParam7_route(params@_) =>
       call(params.fromQuery[Int]("id", None), params.fromQuery[String]("document_id", None), params.fromQuery[String]("patient_id", None), params.fromQuery[String]("tenant", None)) { (id, document_id, patient_id, tenant) =>
         controllers_UploadController_insertDocParam7_invoker.call(UploadController_0.insertDocParam(id, document_id, patient_id, tenant))
+      }
+  
+    // @LINE:23
+    case controllers_UploadController_insertBody8_route(params@_) =>
+      call { 
+        controllers_UploadController_insertBody8_invoker.call(UploadController_0.insertBody())
       }
   }
 }

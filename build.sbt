@@ -36,7 +36,7 @@ libraryDependencies += "org.mongodb.scala" %% "mongo-scala-driver" % "2.6.0"
 /* Jackson dependencies */
 libraryDependencies += "org.json4s" %% "json4s-jackson" % "3.5.3"
 libraryDependencies += "org.json4s" %% "json4s-core" % "3.5.3"
-
+libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.2"
 
 libraryDependencies += "org.apache.logging.log4j" % "log4j-api" % "2.11.2"
 libraryDependencies += "org.apache.logging.log4j" % "log4j-core" % "2.11.2"

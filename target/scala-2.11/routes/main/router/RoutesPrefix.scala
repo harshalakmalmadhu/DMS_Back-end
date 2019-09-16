@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Users/Harsha/Music/SWPM/conf/routes
-// @DATE:Fri Sep 13 21:14:25 IST 2019
+// @SOURCE:C:/Users/Harsha/Music/SWPM/DMS_Back-end/conf/routes
+// @DATE:Sun Sep 15 00:00:32 IST 2019
 
 
 package router {

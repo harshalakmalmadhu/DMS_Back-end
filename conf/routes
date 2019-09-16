@@ -19,3 +19,7 @@ GET  /getFirstDoc          controllers.UploadController.getFirstDoc
 GET  /getAllDocs          controllers.UploadController.getAllDocs
 
 POST   /insertDocPar         controllers.UploadController.insertDocParam(id:Int,document_id:String,patient_id:String,tenant:String)
+
+POST  /insertBody           controllers.UploadController.insertBody()
+
+

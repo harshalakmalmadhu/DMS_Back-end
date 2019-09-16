@@ -4,7 +4,7 @@
 		module="play-scala-starter-example_2.11"
 		revision="1.0.0"
 		status="integration"
-		publication="20190912122838"
+		publication="20190915143003"
 	>
 		<description>
 		play-scala-starter-example
@@ -63,6 +63,7 @@
 		<dependency org="org.mongodb.scala" name="mongo-scala-driver_2.11" rev="2.6.0" conf="compile->default(compile)"/>
 		<dependency org="org.json4s" name="json4s-jackson_2.11" rev="3.5.3" conf="compile->default(compile)"/>
 		<dependency org="org.json4s" name="json4s-core_2.11" rev="3.5.3" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang.modules" name="scala-parser-combinators_2.11" rev="1.0.2" conf="compile->default(compile)"/>
 		<dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.11.2" conf="compile->default(compile)"/>
 		<dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.11.2" conf="compile->default(compile)"/>
 	</dependencies>
