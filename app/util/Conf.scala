@@ -2,10 +2,6 @@ package util
 
 import com.typesafe.config.{Config, ConfigFactory}
 
-/**
-  * Created by Muhunthan M<muhunthanmano@gmail.com>
-  * This is the configuration loaded files
-  */
 object Conf {
 
 //  val conf:Config =  ConfigFactory.load()

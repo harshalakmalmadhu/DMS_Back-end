@@ -4,14 +4,18 @@ import javax.inject.Inject
 import models.frm.mongo.entity.{DocumentDetails, UserReg}
 import org.apache.logging.log4j.LogManager
 import org.joda.time.DateTime
+import org.json4s.NoTypeHints
+import org.json4s.jackson.Serialization
 import play.api.libs.json.{JsValue, Json}
 import play.api.mvc.{AbstractController, ControllerComponents}
-
-import scala.concurrent.{ExecutionContext, Future}
-import scala.util.parsing.json
+import services.Json
 
 
-class UploadController  @Inject()(cc: ControllerComponents)(implicit exec: ExecutionContext) extends AbstractController(cc) {
+import scala.concurrent.duration._
+import scala.concurrent.{Await, ExecutionContext, Future}
+
+
+class UploadController  @Inject()(cc: ControllerComponents)(implicit exec: ExecutionContext) extends AbstractController(cc) with Json {
   val appLogger = LogManager.getLogger("app")
 
   def insertDoc = Action.async {
@@ -56,6 +60,7 @@ class UploadController  @Inject()(cc: ControllerComponents)(implicit exec: Execu
       aa.map(
         success => {
 
+
           println(success.toJson())
 
           Ok(success.toJson())
@@ -76,22 +81,31 @@ class UploadController  @Inject()(cc: ControllerComponents)(implicit exec: Execu
 
       appLogger.info("logging here ")
 
-      val ss = (new DocumentDetails getAllDocs (Map(
+      val ss = (new DocumentDetails getAllDocs())
 
-      )))
+      val i = Await.result(ss, 4 second)
 
-      ss.map(
-        success => {
 
-          println(success.toString())
+      //println(i)
 
-          Ok(success.toString())
-        }
-      ).recover {
-        case _ => Ok("failed")
 
-      }
 
+      val f=i.map(
+        res => {  res.toJson()
+              //println(toJson(res1._2))
+            }
+
+      ).toSeq
+
+
+      println(f.toString())
+
+
+
+      implicit val formats = Serialization.formats(NoTypeHints)
+
+      //println(toJson(f))
+      Future(Ok(toJson(f)))
     }
 
   }
@@ -115,6 +129,8 @@ class UploadController  @Inject()(cc: ControllerComponents)(implicit exec: Execu
 
           println(success.toString())
 
+
+
           Ok(success.toString())
         }
       ).recover {
@@ -130,21 +146,25 @@ class UploadController  @Inject()(cc: ControllerComponents)(implicit exec: Execu
     request => {
       val body: JsValue = request.body
       println(body)
-      val UserName = (request.body \ "UserName").as[String]
-      val Email = (request.body \ "Email").as[String]
-      val FullName = (request.body \ "FullName").as[String]
-      val Password = (request.body \ "Password").as[String]
-      val VehicleNumber = (request.body \ "VehicleNo").as[String]
+
+      val UserName = (request.body \ "UserName").as[String]      val Email = (request.body \ "Email").as[String]
+      val ServiceType = (request.body \ "servicetype").as[String]
       val MobileNo = (request.body \ "MobileNo").as[String]
+      val VehicleNo = (request.body \ "VehicleNo").as[String]
+      val SelectedDate = (request.body \ "SelectedDate").as[String]
+      val SelectedSC = (request.body \ "SelectedSC").as[String]
+      val SelectedTime = (request.body \ "SelectedTime").as[String]
       val created_date_time =  DateTime.now().toString()
 
       val ss = (new UserReg insertDocument (Map(
         "UserName" -> UserName,
         "Email" -> Email,
-        "FullName" -> FullName,
-        "Password" ->  Password,
-        "VehicleNumber" ->  VehicleNumber,
+        "ServiceType" -> ServiceType,
         "MobileNo" ->  MobileNo,
+        "VehicleNo" ->  VehicleNo,
+        "SelectedDate" ->  SelectedDate,
+        "SelectedSC" ->  SelectedSC,
+        "SelectedTime" ->  SelectedTime,
         "created_date_time"  ->  created_date_time
       )))
 

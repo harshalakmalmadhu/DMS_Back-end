@@ -1,4 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Harsha\Music\SWPM\DMS_Back-end\app\controllers\UploadController.scala:132:24: object \ is not a member of package scala.util.parsing.json[0m
-[0m[[0m[31merror[0m] [0m[0m      val name = (json \ "UserName").as[String][0m
-[0m[[0m[31merror[0m] [0m[0m                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

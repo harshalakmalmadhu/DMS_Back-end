@@ -21,7 +21,7 @@
           <value>
             <ProjectSettingsEntry>
               <option name="sourceDir" value="C:\Users\Harsha\Music\SWPM\DMS_Back-end\app" />
-              <option name="confDir" value="C:\Users\Harsha\Music\SWPM\DMS_Back-end\app" />
+              <option name="confDir" value="C:\Users\Harsha\Music\SWPM Final\DMS Backend\app" />
               <option name="templateImports">
                 <list>
                   <option value="_root_.play.twirl.api.TwirlFeatureImports._" />
@@ -44,7 +44,7 @@
                   <option value="controllers.Assets.Asset" />
                 </list>
               </option>
-              <option name="uri" value="/C:/Users/Harsha/Music/SWPM/DMS_Back-end" />
+              <option name="uri" value="/C:/Users/Harsha/Music/SWPM%20Final/DMS%20Backend" />
             </ProjectSettingsEntry>
           </value>
         </entry>

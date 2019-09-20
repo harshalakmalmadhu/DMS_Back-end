@@ -1,9 +1,7 @@
 package models.frm.mongo.entity
 
 import factories.LocalMongo
-import org.bson.BsonDocument
 import org.mongodb.scala.{Completed, Document}
-import play.api.libs.json.JsValue
 import services.Json
 import util.Conf
 
@@ -27,14 +25,9 @@ class DocumentDetails extends Json {
     db.find().first().toFuture()
 
   }
-  def getAllDocs(data:Map[String,Any]):  Future[Seq[Document]] ={
-
-    val id : Document =Document(toJson(data))
-
-
-
+  def getAllDocs():  Future[Seq[Document]] ={
     //db.find().toFuture()
-    db.find().collect().toFuture()
+    db.find().toFuture()
 
   }
   /*def insertDocumentbody(data:JsValue): Future[Either[Int,String]] = {
